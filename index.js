@@ -15,10 +15,7 @@ function increaseRankBy(n) {
 }
 
 function deepestChild() {
-  let node = document.getElementById('grand-node');
-  let nextNode = node.children[0];
-  while (nextNode) {
-    node = nextNode;
-    nextNode = node.children[0];
+  var deepest = document.querySelectorAll('#grand-node div');
+  var mostDeep = nodes[nodes.length - 1];
   }
 }
